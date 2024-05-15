@@ -1,0 +1,42 @@
+/* Write your CSS code here */
+.app-container {
+  height: 100vh;
+}
+
+.greeting-container {
+  width: 600px;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+.home-image {
+  height: 400px;
+  width: 400px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #1e293b;
+  font-size: 45px;
+}
+
+.des {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.but {
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 8px;
+  width: 78px;
+  height: 36px;
+}
